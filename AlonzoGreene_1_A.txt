@@ -1,0 +1,17 @@
+Name: Alonzo Greene
+Date Created: August 30, 2024
+
+
+Program Description:
+This program has a specified amount of presale tickets that will update every time a buyer buys a ticket. Then the number of tickets remaining will be displayed. Tickets bought cannot exceed 4. After the app will display the total number of buyers.
+
+
+
+Logical Steps:
+1. Prompt user to enter how many tickets they want to buy.
+2. Validate user input to check if it exceeds 4.
+3. Check to see if amount of tickets is 0 so loop can break
+4. Subtract user input from tickets then update each time as remaining tickets.
+5. Increase buyer counter by each iteration until 0 tickets are left.
+6. Print remaining tickets after each iteration.
+7. Print total buyers.
