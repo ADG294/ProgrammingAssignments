@@ -12,13 +12,9 @@ def buyers():
 
     preSale = 20
 
-    #numberOfTickets = int(input('Enter number of tickets: '))
-
     b = 0
 
-
-
-    while preSale != 0:
+    while preSale > 0:
 
         numberOfTickets = int(input('Enter number of tickets: '))
 
@@ -29,6 +25,7 @@ def buyers():
         elif preSale == 0:
             break
 
+
         preSale = preSale - numberOfTickets
 
         b += 1
@@ -37,9 +34,9 @@ def buyers():
 
     print('Total buyers: ', b)
 
+
 def main():
 
     buyers()
 
 main()
-
