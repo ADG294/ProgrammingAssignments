@@ -1,0 +1,17 @@
+Name: Alonzo Greene
+Date Created: September 1, 2024
+
+
+Program Description:
+This program will create a text file that will provide answers to random yes or no questions.
+Then the program will read answers from the text file into a list.
+Then the program will ask a yes or no question and prompt the user to quit when they're ready
+then display the response.
+
+Logical Steps:
+1. Open and write file.
+2. Initialize responses into variables.
+3. Write those variables to the file.
+4. Open same file in read mode.
+5. Use read and split methods to read the responses and place them in a list then close the file.
+6. Create a while loop that will prompt the user to ask a question and a random response will print or quit the game.
