@@ -1,0 +1,44 @@
+Name: Alonzo Greene
+Date Created: September 15, 2024
+
+
+Program Description:
+This program will create a list of 30 words and phrases that will be used to identify if the user input is a spam
+email or not.
+
+
+Logical Steps:
+1. Create list that holds all 30 spam words.
+2. Create an input variable for users to input emails in order to validate them.
+3. Use a for loop to iterate through the email and conditionals that will append every spam word found into a new list.
+4. Add a conditional that will decide whether the email is spam or not.
+5. Print spam score, whether the email is spam or not, and the new word list with each spam words found in the email.
+
+
+Variables:
+1. spam_words: A list of 30 spam words used to check the words from user emails.
+2. e_mail: A string input variable that takes user emails as input.
+3. count: This variable keeps track of every iteration.
+4. word_list: This is the list of spam words found within the user emails.
+5. spam_score: The number of spam words that is based assigned to the count variable that increments.
+6. is_spam: This variable is used to decide whether the email is spam or not based on the spam_score variable.
+7. word: This is a temporary variable used to iterate through the email, and is used with the lower() function to
+   iterate through the spam_words list.
+
+
+Functions:
+1. Function Name: spam_message
+    Description: Iterates through the user email and finds matches between the spam word list and the email and keeps
+    track of how many spam words were in the email. After, it prints the spam score, whether it's a spam email or not
+    based on the spam score, and the spam words found within the email.
+    No Parameters
+    No Returns
+2 Function Name: main
+    Description: Executes program and calls the spam_message function.
+    No Parameters
+    No Returns
+
+
+
+
+Repository Link: https://github.com/ADG294/ProgrammingAssignments
