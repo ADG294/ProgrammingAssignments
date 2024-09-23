@@ -1,0 +1,49 @@
+Name: Alonzo Greene
+Date Created: September 22, 2024
+
+
+Program Description:
+This program creates a list of user input with expenses
+and then uses a loop to append each expense to the list.
+After, this program uses the reduce function from the functools
+package that adds the total expenses and calculates
+the lowest and highest expenses then displays all expenses.
+
+
+
+Logical Steps:
+1. Create an empty list and variables that are null.
+2. Create a while loop that while true loops until nothing is entered.
+3. Create an input variable for users to input the name of expense.
+4. Create a condition that if enter is pressed without input program resolves and exits.
+5. Create an input variable for users to input the amount of expense.
+6. Append amount to the list every iteration.
+7. Use reduce method to apply our add function to the list.
+8. Use reduce method to create a lambda function that finds the lowest expense from the list.
+9. Use reduce method to create a lambda function that finds the highest expense from the list.
+10. Print all  the expenses from the reduce functions.
+
+
+Variables:
+1. ex_list: Starts as an empty list that has expenses appended to it.
+2. ex_result: Uses the reduce function to call the add function on ex_list.
+3. u_in: User input for expense name.
+4. u_amount: User input for expense amount.
+5. r_min: Uses the reduce and lambda function to find the lowest expense.
+6. r_max: Uses the reduce and lambda function to find the highest expense.
+
+
+Functions:
+1. Function Name: add
+    Description: Adds x and y
+    Parameters: x, y
+    Returns: returns sum of x and y
+2 Function Name: main
+    Description: Executes program and calls the reduce function as well as the lambda functions and add function.
+    Parameters: x, y
+    Returns: returns x or y
+
+
+
+
+Repository Link: https://github.com/ADG294/ProgrammingAssignments
