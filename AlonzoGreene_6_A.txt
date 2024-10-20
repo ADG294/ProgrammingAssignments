@@ -1,0 +1,65 @@
+Name: Alonzo Greene
+Date Created: October 13, 2024
+
+
+Program Description:
+This program imports the regular expression package then
+creates functions that validate different patterns.
+The program then asks a user for input then calls the previous
+created functions on the input.
+Create a function to validate phone numbers.
+
+
+
+Logical Steps:
+1. Create a phone number validation function.
+2. Create a regular expression pattern for phone numbers.
+3. Create an if/else statement that validates if the phone number is a full match
+   to the pattern.
+5. Create a social security number validation function.
+6. Create a regular expression pattern for social security numbers.
+7. Create an if/else statement that validates if the social security number
+   is a full match to the pattern.
+8. Create a zip code validation function.
+9. Create a regular expression pattern for zip codes.
+10. Create an if/else statement that validates if the zip code
+   is a full match to the pattern.
+11. Create the main function and ask user for different inputs.
+12. Call each function after asking user for each input.
+13. Call the main function to execute the program.
+
+
+Variables:
+1. pattern : Regular expression pattern in the scope of the phone number
+   validation function.
+2. pattern : Regular expression pattern in the scope of the social security number
+   validation function.
+3. pattern : Regular expression pattern in the scope of the zip
+   code validation function.
+4. n : Input for user's phone number.
+5. ssn : Input for user's social security number.
+6. zip_c : Input for user's zip code.
+
+
+Functions:
+1. Function Name: valid_phone
+    Description: Validates user's phone number input.
+    Parameters: n
+    Returns: Either prints valid phone number or invalid phone number.
+2. Function Name: valid_ssn
+    Description: Validates user's social security number input.
+    Parameters: ssn
+    Returns: Either prints valid social security number or invalid social security number.
+3. Function Name: valid_zip
+    Description: Validates user's phone number input.
+    Parameters: zip_c
+    Returns: Either prints valid zip code or invalid zip code.
+4. Function Name: main
+    Description: Executes program and calls the reduce function as well as the lambda functions and add function.
+    Parameters: no parameters
+    Returns: no returns
+
+
+
+
+Repository Link: https://github.com/ADG294/ProgrammingAssignments
