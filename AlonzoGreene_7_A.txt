@@ -1,0 +1,69 @@
+Name: Alonzo Greene
+Date Created: October 27, 2024
+
+
+Program Description:
+The purpose of this program is to create a regular expression pattern that will
+allow a user to input multiple sentences starting with words or numbers then count
+them after printing those sentences out.
+
+
+
+Functions:
+1. Function Name: sentence_count(s)
+   Description: This function creates two regular expression patterns for sentence
+   matching and counting. Then it will print the sentences line by line and display
+   the sentence count.
+
+   Parameters:
+   1. s(variable for user input) - This is a string with multiple sentences.
+
+   Variables:
+   1. pat (re string pattern) - Holds the regular expression pattern that represents
+   multiple sentences.
+   2. sen_pat (re string pattern) - Holds the regular expression pattern that
+   identifies a sentence for the sentence count.
+   3. m(re findall method) - Holds the findall method that will identify if
+   the sentences match the pattern.
+   4. sen(re findall method) - Holds the findall method that finds how many
+   sentences are a match.
+   5. sen_count(variable storing the len function) - Uses the len function
+   to count every sentence that matched the sen_pat variable.
+
+   Logical Steps:
+   1. Create a re pattern for a sentence.
+   2. Create a re pattern that helps identify a sentence.
+   3. Create a match variable that has "DOITALL" or "MULTILINE" flags set to look
+   ahead for the end of the current sentence after a space and beginning of a new
+   sentence or the end of the line.
+   4. Create a sentence variable using the findall method that validates whether it's
+   a sentence or not.
+   5. Create a for loop that prints every sentence line by line.
+   6. Use the len function to count the length of the sentence variable.
+   7. Use an f string to print out the sen_count variable. This will display the
+   total number of sentences.
+
+   Returns: None
+
+2. Function Name: main()
+    Description: Takes in user input then calls the sentence_count function on the input
+    variable.
+
+    Parameters: None
+
+    Variables:
+    1. s(user input string) - Holds the user input string.
+
+    Logical Steps:
+    1. Create an input variable.
+    2. Call the sentence_count function on the input variable.
+
+    Returns: None
+
+Logical Steps:
+1. Create a variable for user input to call a function on.
+2. Call the sentence_count function.
+3 Call the main function to execute the program.
+
+Link to your repository: https://github.com/ADG294/ProgrammingAssignments
+
