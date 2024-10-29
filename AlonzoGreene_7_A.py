@@ -8,10 +8,10 @@ import re
 def sentence_count(s):
 
     # Create a re pattern for a sentence.
-    pat = r'[A-Z\d].*?[.!?](?= [A-Z]|$)'
+    pat = r'[A-Z\d].*?[.!?](?= [A-Z\d]|$)'
 
     # Create a re pattern that helps identify a sentence.
-    sen_pat = r'[^.!?]+[.!?](?= [A-Z]|$)'
+    sen_pat = r'[^.!?]+[.!?](?= [A-Z\d]|$)'
 
     # Create a match variable that has DOITALL or MULTILINE flags set to look ahead
     # for the end of the current sentence after a space and beginning of a new sentence
