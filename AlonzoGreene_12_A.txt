@@ -1,0 +1,96 @@
+Name: Alonzo Greene
+Date Created: November 24, 2024
+
+
+Program Description:
+The purpose of this program is to create a csv file (if one isn't already created),
+then store its data to a file that will be sliced into a numpy array.
+after being sliced methods will be used on the data in order to calculate the
+mean, median, standard deviation, min, and max then print how many students
+passed and failed each exam. After, it will print the pass percentage from all the exams.
+
+
+
+Functions:
+1. Function Name: students()
+   Description: This function creates a csv file if one isn't already created that
+   stores data.
+
+   Parameters:
+   None
+
+   Variables:
+   1. file_path - Creates the name of the file.
+   2. writer - Holds the csv file object.
+   3. first - Holds a student's first name
+   4. last - Holds a student's last name
+   5. exam_1 - Holds a student's score for exam 1
+   6. exam_2 - Holds a student's score for exam 2
+   7. exam_3 - Holds a student's score for exam 3
+
+   Logical Steps:
+   1. Initialize the file path variable.
+   2. Create a try except block that checks if the created file exists or not.
+   3. Within in the try except block create a loop that takes user input on each
+   iteration.
+
+   Returns:
+   None
+
+2. Function Name: student_scores()
+    Description: This function generates data from the csv file and slices the columns
+     needed into arrays that can be used in different methods to be calculated.
+
+    Parameters:
+    None
+
+    Variables:
+    1. A - Holds the data from the csv file
+    2. exam_1 = Holds the exam 1 scores column
+    3. exam_2 = Holds the exam 2 scores column
+    4. exam_3 = Holds the exam 3 scores column
+    5. all_exams = Holds all the exam scores.
+    6. countP - Holds the number of students that passed the exams.
+    7. countF - Holds the number of students that failed the exams.
+    8. score - temporary variable that accesses the score at each index.
+
+    Logical Steps:
+    1. Initialize the 'A' variable which generates the data from the csv file.
+    2. Slice the 3rd column from the file and store it in the variable exam 1.
+    3. Call the numpy methods (mean, median, std, min, max) on the 'A' variable.
+    4. Slice the 4th column from the file and store it in the variable exam 2.
+    5. Repeat step 3.
+    6.  Slice the 5th column from the file and store it in the variable exam 3.
+    7. Repeat step 3.
+    8.  Slice the 3rd - 5th column from the file and store it in the variable all_exams.
+    9. Create for loops that have an if-else clause that prints the number of students
+    that passed and failed each exam.
+    10. Create a for loop that calculates and prints the pass percentage for all exams.
+
+    Returns:
+    None
+
+
+3. Function Name: main()
+    Description: Calls both functions
+
+    Parameters:
+    None
+
+    Variables:
+    None
+
+    Logical Steps:
+    1. Calls the students() function
+    2. Calls the student_scores() function
+
+    Returns: None
+
+Logical Steps:
+1. Create the students() function
+2. Create the student_scores() function
+3. Call both functions in the main() function.
+4. Call the main function to execute the program.
+
+Link to your repository: https://github.com/ADG294/ProgrammingAssignments
+
